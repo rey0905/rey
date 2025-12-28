@@ -56,7 +56,7 @@ export const Navigation: React.FC = () => {
 
   return (
     <>
-      {/* Desktop Sidebar (HP 20" optimized) */}
+      {/* Desktop Sidebar */}
       <div className="hidden md:flex h-screen w-80 bg-brand-dark flex-col p-6 fixed left-0 top-0 z-40 shadow-2xl overflow-y-auto">
         <div className="mb-12 mt-4 px-2">
           <h1 className="text-4xl font-black text-white tracking-widest flex items-center gap-2">
@@ -83,7 +83,7 @@ export const Navigation: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Bottom Nav (Huawei Mate 50 optimized) */}
+      {/* Mobile Bottom Nav */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 z-50 pb-safe">
         <div className="flex justify-around items-center h-[80px]">
           {navItems.map(item => (
